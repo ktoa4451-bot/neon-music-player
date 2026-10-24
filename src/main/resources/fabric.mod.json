@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "musicplayer",
+  "version": "${version}",
+  "name": "Neon Music Player",
+  "description": "A neon-style in-game music player.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.musicplayer.MusicPlayerMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
